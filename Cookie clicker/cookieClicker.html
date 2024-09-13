@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #cookieYouClickOn {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <h1>Cookie Clicker</h1>
+    <div id="cookieAnchor">
+        <button id="cookieYouClickOn"></button>
+        <div id="cookieNumbers"></div>
+    </div>
+    
+    
+    <div id="cookieCounter">
+        <h1 id="amountOfCookies">Cookies: <span id="cookieAmount">0</span></h1>
+    </div>
+
+    <div id="upgradeSection" style="display: none;">
+        <button id="upgradeButton">Buy upgrade (10 Cookies)</button>
+    </div>
+
+
+    <script src="cookieClicker.js"></script>
+</body>
+</html>
